@@ -1,0 +1,129 @@
+:root {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background-size: cover;
+    background-image: url(../IMG/Ceu.jpg);
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    height: auto;
+    width: 450px;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.cidade-principal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nome-cidade {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.bandeira {
+    height: 40px;
+}
+
+.temperatura {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.condicao {
+    font-size: 1.2rem;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    gap: 15px;
+}
+
+.condicao-tipo {
+    text-transform: capitalize;
+}
+
+.info-temp {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 50px;
+    display: flex;
+    font-size: 12pt;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+}
+
+
+.texto-busca {
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input-busca {
+    font-size: 12pt;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.botao-buscar {
+    background-color: rgb(198, 228, 241);
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: 5px;
+    width: 50px;
+}
+
+.botao-buscar:hover {
+    background-color: rgb(173, 200, 211);
+}
+
+.botao-buscar:active {
+    background-color: rgb(182, 211, 223);
+}
+
+.locais-inicio {
+    display: flex;
+}
+
+.locais-inicio div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.esconder {
+    display: none;
+}

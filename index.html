@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="painel">
+            <div>
+                <h1 class="titulo">Previsão do Tempo</h1>
+                <p class="texto-busca">Digite o nome da sua cidade<br>
+                    <input type="search" class="input-busca">
+                    <button class="botao-buscar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </p>
+                <div class="">            
+                    <h2 class="cidade-principal">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="cidade"></span>
+                        <img src="" class="bandeira" alt="">
+                    </h2>
+                    <div class="condicao">
+                        <span class="temperatura"></span>
+                        <img src="" class="condicao-img" alt="Condições do tempo">
+                        <span class="condicao-tipo"></span>
+                    </div>
+                    <ul class="info-temp">
+                    <li class="umidade"><i class="fa-solid fa-droplet"></i> <span class="umidade-p">18%</span></li>
+                        <li class="chuva"><i class="fa-solid fa-cloud-rain"></i> <span class="chuva-p">15%</span></li>
+                        <li class="vento"><i class="fa-solid fa-wind"></i> <span class="vento-km">35km/h</span></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
