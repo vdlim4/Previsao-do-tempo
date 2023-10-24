@@ -24,6 +24,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     height: auto;
     width: 450px;
+    text-align: center;
 }
 
 .titulo {
@@ -111,17 +112,9 @@ main {
     background-color: rgb(182, 211, 223);
 }
 
-.locais-inicio {
+.min-max {
     display: flex;
-}
-
-.locais-inicio div {
-    background-color: white;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 5px;
-    text-align: center;
-    width: 25%;
+    flex-direction: column;
 }
 
 .esconder {
