@@ -3,7 +3,7 @@
 }
 body {
     background-size: cover;
-    background-image: url(../IMG/ceu.jpeg);
+    background-image: url(./IMG/ceu.jpeg);
     margin: 0;
 }
 
