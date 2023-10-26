@@ -3,7 +3,7 @@
 }
 body {
     background-size: cover;
-    background-image: url(../IMG/Ceu.jpg);
+    background-image: url(../IMG/ceu.jpeg);
     margin: 0;
 }
 
@@ -93,6 +93,7 @@ main {
     border-radius: 5px;
     border: none;
     padding: 5px;
+    margin-bottom: 1rem;
 }
 
 .botao-buscar {
